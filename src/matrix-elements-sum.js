@@ -24,7 +24,7 @@ function getMatrixElementsSum(matrix) {
            if (el === 0) {
       arrNum.splice(index + skip, 1, 0);
      }
-             sum += el;
+            sum += el;
   });
     return sum;
 }
